@@ -3,6 +3,9 @@
 Separar a construção de um objeto completo de sua representação de modo que o mesmo processo de
 construção possa criar diferentes representações.
 
+Classe Builder será responsável por configurar a classe principal e também responsável por 
+retornar o objeto pronto.
+
 ## Características principais do Builder Pattern:
 - Separação da Construção da Representação: O processo de construção do objeto é separado da sua representação final.
 - Flexibilidade: Permite criar diferentes representações de um objeto com o mesmo código de construção.
