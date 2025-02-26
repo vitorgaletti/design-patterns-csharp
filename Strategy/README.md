@@ -1,6 +1,6 @@
 # Strategy
 
-Definir uma dependência um para muitos entre objetos, de maneira que quando um objeto muda de estado todos os seus dependentes são notificados e atulizados automaticamente
+Definir uma família de algoritmos, encapsular cada uma delas e torná-las intercambiáveis. Strategy permite que o algoritmo varie independentemente dos clientes que o utilizam
 
 O objetivo é permitir que o algoritmo que está sendo utilizado em um determinado contexto seja selecionado dinamicamente em tempo de execução, sem alterar o código cliente que o utiliza.
 
